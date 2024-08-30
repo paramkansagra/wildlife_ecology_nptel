@@ -47,6 +47,17 @@ const AppTitle: FC = function () {
 					<u> here.</u>
 				</a>{" "}
 				If this has helped you, please consider starring the repo.
+
+				<br></br>
+				<br></br>
+				Made with &#128155; by 
+				<a
+					href="https://www.linkedin.com/in/param-kansagra-40912220b/"
+					target="_blank"
+					className="text-blue-500"
+				>
+					<u> Param Kansagra</u>
+				</a>{" "}
 			</div>
 		</>
 	);
