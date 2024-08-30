@@ -16,7 +16,7 @@ const AppTitle: FC = function () {
 					to-[#5bb8ff]
 					"
 					>
-						Ace your NPTEL course
+						Ace your Wild Life Ecology NPTEL course
 					</h1>
 					<p className="mb-8 text-gray-500 sm:px-16 md:text-lg lg:text-xl xl:px-48 font-thin">
 						Welcome to &quot;Wild Life Ecology&quot;
