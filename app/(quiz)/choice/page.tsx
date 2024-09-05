@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { Home } from "lucide-react";
+import { questionsByWeek } from "@/components/data/questions";
 
 const Choose: React.FC = () => {
 	const [selectedWeek, setSelectedWeek] = useState<string>("");
@@ -40,7 +41,7 @@ const Choose: React.FC = () => {
 			</div>
 			<div className="grid md:grid-cols-6 gap-8 md:gap-6 lg:gap-8 p-10">
 				{/* idhar se weeks change kar sakta hai */}
-				{Array.from({ length: 5 }, (_, i) => `week${i + 1}`).map(
+				{Array.from({ length: Object.keys(questionsByWeek).length }, (_, i) => `week${i + 1}`).map(
 					(week) => (
 						<button
 							key={week}
