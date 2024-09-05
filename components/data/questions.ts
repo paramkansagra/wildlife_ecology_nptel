@@ -478,4 +478,106 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'herpetofauna',
 	},
   ],
+  week6:[
+	{
+		question: "a climax caused by wildfires is an example of",
+		options: [
+			"climatic climax",
+			"edaphic climax",
+			"disclimax",
+			"catastrophic climax",
+		],
+		answer: 'catastrophic climax',
+	},
+	{
+		question: "when compared to generalist species, specialist species have",
+		options: [
+			"narrower niches",
+			" broader niches",
+			"same-size niches",
+			"none of these",
+		],
+		answer: 'narrower niches',
+	},
+	{
+		question: "which of these depicts correctly the lithosere primary succession",
+		options: [
+			"rock --> crustose lichen --> foliose lichen --> moss --> herbaceous stage --> shrub --> woodland --> climax",
+			"rock --> foliose lichen --> crustose lichen --> moss --> herbaceous stage --> shrub --> woodland --> climax",
+			"moss --> crustose lichen --> foliose lichen --> rock --> herbaceous stage --> shrub --> woodland --> climax",
+			"rock --> crustose lichen --> foliose lichen --> shrub --> herbaceous stage --> moss --> woodland --> climax",
+		],
+		answer: 'rock --> crustose lichen --> foliose lichen --> moss --> herbaceous stage --> shrub --> woodland --> climax',
+	},
+	{
+		question: "importance value can be written as",
+		options: [
+			"relative density + relative frequency X relative dominance",
+			"relative density X relative frequency + relative dominance",
+			"relative density + relative frequency + relative dominance",
+			"relative density X relative frequency X relative dominance",
+		],
+		answer: 'relative density + relative frequency + relative dominance',
+	},
+	{
+		question: "lithosere is an example of",
+		options: [
+			"hydrosere",
+			"xerosere",
+			"psammosere",
+			"halosere",
+		],
+		answer: 'xerosere',
+	},
+	{
+		question: "importance value varies from",
+		options: [
+			"0 to 10",
+			"0 to 50",
+			"0 to 100",
+			"0 to 300",
+		],
+		answer: '0 to 300',
+	},
+	{
+		question: "a species found most frequently in a particular community, but also present occasionally in others is called",
+		options: [
+			"accidental species",
+			"indifferent species",
+			"selective species",
+			"exclusive species",
+		],
+		answer: 'selective species',
+	},
+	{
+		question: "the climax near Tindi village is being controlled by disturbance by cattle. this is an example of",
+		options: [
+			"climatic climax",
+			"edaphic climax",
+			"disclimax",
+			"catastrophic climax",
+		],
+		answer: 'disclimax',
+	},
+	{
+		question: "which of these is correct?",
+		options: [
+			"fundamental niche > realised niche",
+			"fundamental niche = realised niche",
+			"fundamental niche < realised niche",
+			"fundamental niche > realised niche or fundamental niche = realised niche",
+		],
+		answer: 'fundamental niche > realised niche or fundamental niche = realised niche',
+	},
+	{
+		question: "which of these is not a characteristic of pioneer species",
+		options: [
+			"ability to grow on bare rocks",
+			"ability to tolerate extreme temperatures",
+			"large size",
+			"short life span",
+		],
+		answer: 'large size',
+	},
+  ],
 };
