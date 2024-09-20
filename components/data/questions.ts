@@ -1,7 +1,7 @@
 import { Question } from "@/types/Question";
 
 export const questionsByWeek: { [week: string]: Question[] } = {
-  week1: [
+  Week1: [
     {
       question: '"Enquiry into plants" is a book written by',
       options: ["Theophrastus", "Linnaeus", "Malthus", "Humboldt"],
@@ -70,7 +70,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
       answer: "underpopulation",
     },
   ],
-  week2: [
+  Week2: [
 	{
 		question: 'Hierarchy emerges almost inevitably through a wide variety of evolutionary processes, for the simple reason that hierarchical structures are _____ (fill in the blank)',
 		options: [
@@ -172,7 +172,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'intermediate',
 	},
   ],
-  week3: [
+  Week3: [
 	{
 		question: "birds on giraffe are an example of",
 		options: [
@@ -274,7 +274,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'allo grooming',
 	},
   ],
-  week4: [
+  Week4: [
 	{
 		question: "consider the food chain grass --> grasshopper --> frog --> snake --> hawk as we move up the food chain,",
 		options: [
@@ -376,7 +376,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'APAR x LUE',
 	},
   ],
-  week5:[
+  Week5:[
 	{
 		question: "____ is how close the measured values are to the correct value",
 		options: [
@@ -478,7 +478,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'herpetofauna',
 	},
   ],
-  week6:[
+  Week6:[
 	{
 		question: "a climax caused by wildfires is an example of",
 		options: [
@@ -578,6 +578,210 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 			"short life span",
 		],
 		answer: 'large size',
+	},
+  ],
+  Week7:[
+	{
+		question: "i tried growing vegetables under my teak plantation, but the vegetable plants died out. i should be concerned about",
+		options: [
+			"autophagy",
+			"allelophagy",
+			"autopathy",
+			"allelopathy",
+		],
+		answer: 'allelopathy',
+	},
+	{
+		question: "which of these is a physical factor of habitat?",
+		options: [
+			"soil",
+			"moisture",
+			"predators",
+			"temperatures",
+		],
+		answer: 'predators',
+	},
+	{
+		question: "'the rate of biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor' this is the statement for",
+		options: [
+			"Liebig's law of minimum",
+			"Liebig's law of maximum",
+			"Shelford's law of tolerance",
+			"Shelford's law of intolerance",
+		],
+		answer: "Liebig's law of minimum",
+	},
+	{
+		question: "transplantation experiments are used to find",
+		options: [
+			"potential range",
+			"effective range",
+			"actual range",
+			"economic range",
+		],
+		answer: 'potential range',
+	},
+	{
+		question: '"quick movement over large distances, often across unsuitable terrain" is a definition of',
+		options: [
+			"diffusion",
+			"secular dispersal",
+			"jump dispersal",
+			"drifting",
+		],
+		answer: 'jump dispersal',
+	},
+	{
+		question: "the movement of lions across the Gir landscape is an example of",
+		options: [
+			"diffusion",
+			"secular dispersal",
+			"jump dispersal",
+			"drifting",
+		],
+		answer: 'diffusion',
+	},
+	{
+		question: "good climate is a",
+		options: [
+			"chemical factor",
+			"demographic factor",
+			"push factor",
+			"pull factor",
+		],
+		answer: 'pull factor',
+	},
+	{
+		question: "scarcity of food is a",
+		options: [
+			"chemical factor",
+			"demographic factor",
+			"push factor",
+			"pull factor",
+		],
+		answer: 'push factor',
+	},
+	{
+		question: '"the geographical distribution of a species will be controlled by that environment factor for which the organism has the narrowest range of tolerance" this is the statement for',
+		options: [
+			"Liebig's law of minimum",
+			"Liebig's law of maximum",
+			"Shelford's law of tolerance",
+			"Shelford's law of intolerance",
+		],
+		answer: "Shelford's law of tolerance",
+	},
+	{
+		question: "the movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
+		options: [
+			"translocation",
+			"migration",
+			"dispersal",
+			"drifting",
+		],
+		answer: 'dispersal',
+	},
+  ],
+  Week8:[
+	{
+		question: "According to Leopold, which of these is not a tool of habitat management",
+		options: [
+			"fire",
+			"gun",
+			"cattle",
+			"sickle",
+		],
+		answer: 'sickle',
+	},
+	{
+		question: "which of these correctly represents the process of habitat fragmentation and loss",
+		options: [
+			"original forest --> dissection --> perforation --> fragmentation --> attrition",
+			"original forest --> dissection --> attrition --> fragmentation --> perforation",
+			"original forest --> dissection --> perforation --> attrition --> fragmentation",
+			"original forest --> dissection --> fragmentation --> perforation --> attrition",
+		],
+		answer: 'original forest --> dissection --> perforation --> fragmentation --> attrition',
+	},
+	{
+		question: "we prefer those areas for the creation of conservation reserve where the level of threat is",
+		options: [
+			"very high",
+			"medium",
+			"very low",
+			"non-existent",
+		],
+		answer: "medium",
+	},
+	{
+		question: 'the "subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce" is the definition of',
+		options: [
+			"habitat",
+			"effective range",
+			"biome",
+			"biosphere",
+		],
+		answer: 'habitat',
+	},
+	{
+		question: 'captive breeding is an example of',
+		options: [
+			"in-situ conservation",
+			"ex-situ conservation",
+			"in-situ preservation",
+			"ex-situ preservation",
+		],
+		answer: 'ex-situ conservation',
+	},
+	{
+		question: "which of these is a deterministic factor?",
+		options: [
+			"environmental variation",
+			"forest fire",
+			"death rate",
+			"diseases",
+		],
+		answer: 'death rate',
+	},
+	{
+		question: "which of these is a stochastic factor",
+		options: [
+			"birth rate",
+			"death rate",
+			"population structure",
+			"environmental fluctuation",
+		],
+		answer: 'environmental fluctuation',
+	},
+	{
+		question: "zoo is an example of",
+		options: [
+			"in-situ conservation",
+			"ex-situ conservation",
+			"in-situ preservation",
+			"ex-situ preservation",
+		],
+		answer: 'ex-situ conservation',
+	},
+	{
+		question: 'the acronym HIPPO does not include',
+		options: [
+			"habitat loss",
+			"habitat enhancement",
+			"invasive species",
+			"human over- population",
+		],
+		answer: "habitat enhancement",
+	},
+	{
+		question: "the acronym HIPPO does not include",
+		options: [
+			"habitat loss",
+			"invasive species",
+			"pollination",
+			"pollution",
+		],
+		answer: 'pollination',
 	},
   ],
 };
