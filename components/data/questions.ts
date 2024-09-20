@@ -1,7 +1,7 @@
 import { Question } from "@/types/Question";
 
 export const questionsByWeek: { [week: string]: Question[] } = {
-  Week1: [
+  week1: [
     {
       question: '"Enquiry into plants" is a book written by',
       options: ["Theophrastus", "Linnaeus", "Malthus", "Humboldt"],
@@ -70,7 +70,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
       answer: "underpopulation",
     },
   ],
-  Week2: [
+  week2: [
 	{
 		question: 'Hierarchy emerges almost inevitably through a wide variety of evolutionary processes, for the simple reason that hierarchical structures are _____ (fill in the blank)',
 		options: [
@@ -172,7 +172,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'intermediate',
 	},
   ],
-  Week3: [
+  week3: [
 	{
 		question: "birds on giraffe are an example of",
 		options: [
@@ -274,7 +274,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'allo grooming',
 	},
   ],
-  Week4: [
+  week4: [
 	{
 		question: "consider the food chain grass --> grasshopper --> frog --> snake --> hawk as we move up the food chain,",
 		options: [
@@ -376,7 +376,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'APAR x LUE',
 	},
   ],
-  Week5:[
+  week5:[
 	{
 		question: "____ is how close the measured values are to the correct value",
 		options: [
@@ -478,7 +478,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'herpetofauna',
 	},
   ],
-  Week6:[
+  week6:[
 	{
 		question: "a climax caused by wildfires is an example of",
 		options: [
@@ -580,7 +580,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'large size',
 	},
   ],
-  Week7:[
+  week7:[
 	{
 		question: "i tried growing vegetables under my teak plantation, but the vegetable plants died out. i should be concerned about",
 		options: [
@@ -682,7 +682,7 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'dispersal',
 	},
   ],
-  Week8:[
+  week8:[
 	{
 		question: "According to Leopold, which of these is not a tool of habitat management",
 		options: [
