@@ -784,4 +784,106 @@ export const questionsByWeek: { [week: string]: Question[] } = {
 		answer: 'pollination',
 	},
   ],
+  week9:[
+	{
+		question: "which of these is a positive check according to Malthus?",
+		options: [
+			"late marriage",
+			"war",
+			"celibacy",
+			"moral restraint",
+		],
+		answer: 'war',
+	},
+	{
+		question: "the demographic transition sees a society move from",
+		options: [
+			"high birth rate, low death rate to low birth rate, low death rate",
+			"low birth rate, high death rate to low birth rate, low death rate",
+			"high birth rate, high death rate to low birth rate, low death rate",
+			"high birth rate, high death rate to low birth rate, high death rate",
+		],
+		answer: 'high birth rate, high death rate to low birth rate, low death rate',
+	},
+	{
+		question: "according to Malthusian model",
+		options: [
+			"population grows in geometric progression, food supply increases in arithmetic progression",
+			"population grows in geometric progression, food supply increases in geometric progression",
+			"population grows in arithmetic progression, food supply increases in arithmetic progression",
+			"population grows in arithmetic progression, food supply increases in geometric progression",
+		],
+		answer: "population grows in geometric progression, food supply increases in arithmetic progression",
+	},
+	{
+		question: 'the book "An essay on the principle of population" was written by',
+		options: [
+			"Darwin",
+			"Malthus",
+			"Spencer",
+			"Owens",
+		],
+		answer: 'Malthus',
+	},
+	{
+		question: '_______ is used to identify which potential impacts are relevant to assess. (fill in the blank)',
+		options: [
+			"screening",
+			"scoping",
+			"reporting",
+			"review",
+		],
+		answer: 'scoping',
+	},
+	{
+		question: "which of these is preventive check according to Malthus?",
+		options: [
+			"foresight",
+			"vice",
+			"misery",
+			"flood",
+		],
+		answer: 'foresight',
+	},
+	{
+		question: "______ determines which projects or developments require a full or partial impact assessment  study. (fill in the blank)",
+		options: [
+			"screening",
+			"scoping",
+			"reporting",
+			"review",
+		],
+		answer: 'screening',
+	},
+	{
+		question: "which of these is a pillar of sustainability",
+		options: [
+			"social sustainability",
+			"industrial sustainability",
+			"agricultural sustainability",
+			"trans- boundary sustainability",
+		],
+		answer: 'social sustainability',
+	},
+	{
+		question: 'which of these is not a pillar of sustainability ?',
+		options: [
+			"environmental sustainability",
+			"economic sustainability",
+			"trans- boundary sustainability",
+			"agricultural sustainability",
+		],
+		answer: "trans- boundary sustainability",
+	},
+	{
+		question: "the quantum of human impacts is given by",
+		options: [
+			"I = P X A X T",
+			"I = P + A + T",
+			"I = P + A - T",
+			"I = P - (A+T)",
+		],
+		answer: 'I = P X A X T',
+	},
+  ],
 };
